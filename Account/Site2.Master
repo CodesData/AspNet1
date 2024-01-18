@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="AspNet1.Account.Site2" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="AspNet1" />
+    <meta name="description" content="Template Asp.Net" />
+    <meta name="keywords" content="#" />
+    <title><%:Page.Title%>- AspNet1</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="../Site/assets/bootstrap/css/bootstrap.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="../Site/assets/fontawesome/css/all.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../Site/assets/css/Style.css" />
+    <!-- icon -->
+    <link rel="shortcut icon" href="../Site/images/icon.ico" />
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-dark">
+    <form id="frmContent" runat="server">
+        <!-- Page Content -->
+        <asp:ContentPlaceHolder ID="cphContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+    <!-- jQuery -->
+    <script type="text/javascript" src="../Site/assets/js/jQuery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="../Site/assets/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

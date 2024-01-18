@@ -1,0 +1,60 @@
+﻿/** style.css **/
+
+@charset "utf-8";
+.page {
+    font-size: 13px;
+    color: #333;
+    margin-top: 60px;
+}
+#pageContent {
+    min-height: 1000px;
+}
+
+/** header **/
+.Ad-Color{
+    color: LightGreen;
+}
+
+/** breadcrumb **/
+.breadcrumb {
+    padding: 8px 0px 5px 15px; /* Top-Right-Bottom-Left */
+    margin: 8px 0px 5px 0px; /* Top-Right-Bottom-Left */
+    background-color: #e9ecef;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #333;
+}
+.breadcrumb li a {
+    text-decoration: none;
+}
+
+/** SignIn **/
+.card-login {
+    max-width : 25rem;
+}
+.form-label-group {
+    position : relative;
+}
+
+/** footer **/
+footer {
+    margin-top : 5px;
+    padding-top : 10px;
+    color : #fff;
+}
+footer a:link {
+    text-decoration : none;
+    color : #fff;
+}
+footer a:visited {
+    text-decoration : none;
+    color : #fff;
+}
+footer a:hover {
+    text-decoration : none;
+    color: #4682B4;
+}
+footer a:active {
+    text-decoration : none;
+    color : #fff;
+}
